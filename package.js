@@ -11,7 +11,7 @@ Package.onUse(function(api) {
 
   api.use([
       'coffeescript',
-      'cosmos:path-helpers',
+      'cosmos:path-helpers@0.1.0',
       'meteorhacks:flow-router@1.0.4'
     ], 'client'
   );
