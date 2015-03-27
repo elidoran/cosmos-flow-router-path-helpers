@@ -1,7 +1,7 @@
 Package.describe({
   name: 'cosmos:flow-router-path-helpers',
-  version: '0.1.0',
-  summary: 'Adds helpers pathFor/urlFor/linkTo for FlowRouter',
+  version: '0.1.1',
+  summary: 'Use pathFor/urlFor/linkTo/isPath helpers with FlowRouter',
   git: 'http://github.com/elidoran/cosmos-flow-router-path-helpers.git',
   documentation: 'README.md'
 });
