@@ -1,6 +1,6 @@
 Package.describe({
   name: 'cosmos:flow-router-path-helpers',
-  version: '0.1.1',
+  version: '0.1.2',
   summary: 'Use pathFor/urlFor/linkTo/isPath helpers with FlowRouter',
   git: 'http://github.com/elidoran/cosmos-flow-router-path-helpers.git',
   documentation: 'README.md'
@@ -11,7 +11,7 @@ Package.onUse(function(api) {
 
   api.use([
       'coffeescript',
-      'cosmos:path-helpers@0.1.0',
+      'cosmos:path-helpers@0.1.1',
       'meteorhacks:flow-router@1.0.4'
     ], 'client'
   );
