@@ -11,7 +11,7 @@ install:
   - "export PATH=$PATH:$HOME/.meteor"
   # Install build scripts
   - "wget https://raw.github.com/arunoda/travis-ci-meteor-packages/master/start_test.js"
-    "wget https://raw.github.com/arunoda/travis-ci-meteor-packages/master/phantom_runner.js"
+  - "wget https://raw.github.com/arunoda/travis-ci-meteor-packages/master/phantom_runner.js"
 
 before_script:
   - "meteor --version"
